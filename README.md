@@ -2,6 +2,9 @@
 
 Spirits of Steel: Community Edition is a grand strategy war game where you guide a country through diplomacy, industry, politics, military buildup, and war.
 
+## For Linux
+Install the dependencies yourself and then run the Makefile with "make"
+
 ## How To Launch
 
 Run `sosandce.exe` from this folder.

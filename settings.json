@@ -5,6 +5,6 @@
   "fps": 60,
   "fogOfWar": true,
   "fullscreen": true,
-  "windowWidth": 2560,
-  "windowHeight": 1440
+  "windowWidth": 1920,
+  "windowHeight": 1200
 }
