@@ -20,7 +20,6 @@ LDFLAGS  := $(shell pkg-config --libs $(PKG_LIBS))
 RML_DIR      := $(HOME)/RmlUi
 RML_INC      := -I$(RML_DIR)/Include
 RML_LIB_PATH := -L$(RML_DIR)/Build
-# Based on your 'ls' output: librmlui.so and librmlui_debugger.so
 RML_LIBS     := -lrmlui -lrmlui_debugger
 
 # --- Include Paths ---
