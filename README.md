@@ -6,7 +6,8 @@ Spirits of Steel: Community Edition is a grand strategy war game where you guide
 Install the dependencies yourself and then run the Makefile with "make"
 
 #### Might not be everything but something like this:
-```sudo apt install -y \
+```
+sudo apt install -y \
     libsdl2-dev \
     libsdl2-image-dev \
     libsdl2-mixer-dev \
@@ -24,8 +25,9 @@ cd RmlUi
 cmake -B Build -S . -DRMLUI_SAMPLES=ON
 cmake --build Build -j
 ```
-Then in your Makefile correct the paths of RML_DIR, RML_INC and RML_LIB_PATH if you don't install RmlUi in the home folder
-```RML_DIR=~/RmlUi
+Then in your Makefile correct the paths if you didn't install RmlUi in the home folder
+```
+RML_DIR=~/RmlUi
 RML_INC=~/RmlUi/Include
 RML_LIB_PATH=~/RmlUi/Build
 ```
